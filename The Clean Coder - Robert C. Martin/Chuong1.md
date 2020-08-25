@@ -8,6 +8,7 @@ Vậy bạn muốn trở thành một nhà phát triển phần mềm chuyên ng
 với cả thế giới rằng: "Tôi là người chuyên nghiệp!" Bạn muốn mọi người nhìn bạn với sự tôn trọng và 
 đối đãi với bạn một cách tôn trọng. Bạn muốn các bà mẹ chỉ vào bạn và nói rằng những đứa con của họ giống bạn. 
 Bạn muốn tất cả. Đúng chứ?
+
 ### Hãy cẩn thận với những gì bạn hỏi
 Chuyên gia là một thuật ngữ nặng nề. Chắc chắn đó là một huy chương của danh dự và niềm kiêu hãnh, nhưng nó cũng là dấu hiệu của trách nhiệm và nhiệm vụ giải trình. Tất nhiên là hai điều đó đi cùng nhau. Bạn không thể tự hào và vinh dự về một điều gì đó mà bạn không thể chịu trách nhiệm.
 Để trở thành một người không chuyên nghiệp dễ dàng hơn nhiều. Những người không chuyên nghiệp không cần phải có
@@ -36,11 +37,11 @@ Sau khi phản ánh, tôi nhận ra rằng việc giao mà không kiểm tra quy
  Đó là về việc tôi giữ thể diện. Tôi đã không quan tâm đến khách hàng, cũng như về chủ nhân của tôi. Tôi chỉ quan tâm đến danh tiếng của mình. Lẽ ra, tôi nên nhận trách nhiệm sớm và nói với Tom rằng các bài kiểm tra chưa hoàn thành và tôi chưa chuẩn bị để giao phần mềm đúng hạn. Cái đó
 sẽ rất khó, và Tom sẽ rất buồn. Nhưng sẽ không có khách hàng nào bị mất dữ liệu và cũng không có người quản lý dịch vụ nào gọi đến.
 
-### ĐẦU TIÊN KHÔNG GÂY HẠI
+## ĐẦU TIÊN KHÔNG GÂY HẠI
 Vậy chúng ta phải chịu trách nhiệm như thế nào? Có một số nguyên tắc. Rút ra từ lời thề Hippocrate có vẻ kiêu ngạo, nhưng còn nguồn nào tốt hơn? Và, thực sự, có phải trách nhiệm đầu tiên và mục tiêu đầu tiên của một chuyên gia đầy khát vọng là sử dụng quyền hạn của mình cho mục đích tốt không?
 Một nhà phát triển phần mềm có thể gây hại gì? Từ quan điểm phần mềm thuần túy, người đó có thể gây hại cho cả chức năng và cấu trúc của phần mềm. Chúng ta sẽ khám phá cách tránh làm điều đó.
 
-### DO NO HARM TO FUNCTION
+### Không làm hại đến chức năng
 Rõ ràng, chúng tôi muốn phần mềm của mình hoạt động. Thật vậy, hầu hết chúng ta là lập trình viên ngày nay bởi vì chúng ta có một thứ gì đó để làm việc một lần và chúng ta muốn cảm giác đó một lần nữa.
 Nhưng chúng tôi không phải là những người duy nhất muốn phần mềm hoạt động. Khách hàng và nhà tuyển dụng của chúng tôi cũng muốn nó hoạt động. Thật vậy, họ đang trả tiền cho chúng tôi để tạo ra phần mềm hoạt động theo cách họ muốn.
 Chúng tôi làm hại chức năng của phần mềm khi chúng tôi tạo ra lỗi. **Vì vậy, để trở nên chuyên nghiệp, chúng ta không được tạo ra lỗi.**
@@ -49,8 +50,8 @@ Tất nhiên bạn có quyền. Phần mềm quá phức tạp để tạo ra m�
 "Bạn đang nói với chúng tôi rằng chúng tôi phải hoàn hảo?" Tôi có nghe bạn phản đối không?
 Không, tôi đang nói với bạn rằng **bạn phải chịu trách nhiệm cho sự không hoàn hảo của mình**. Thực tế là lỗi chắc chắn sẽ xảy ra trong code của bạn không có nghĩa là bạn không chịu trách nhiệm về chúng. Thực tế là nhiệm vụ viết phần mềm hoàn hảo hầu như là không thể, không có nghĩa là bạn không phải chịu trách nhiệm về sự không hoàn hảo.
 Rất nhiều người chuyên nghiệp phải chịu trách nhiệm cho các sai sót mặc dù các lỗi là hầu như chắc chắn. Vì vậy, tôi chuyên nghiệp, điều đầu tiên bạn phải thực hiện là xin lỗi. Lời xin lỗi là cần thiết, nhưng không đủ. Bạn không thể cứ lặp đi lặp lại những lỗi giống nhau. Khi bạn trưởng thành trong nghề, tỷ lệ lỗi của bạn sẽ nhanh chóng giảm dần về phía tiệm cận bằng không. Nó sẽ không bao giờ về 0, nhưng bạn có trách nhiệm phải tiến gần nhất có thể.
-### QA should find nothing
 
+### QA không nên tìm thấy lỗi
 Do đó, khi bạn phát hành phần mềm của mình, bạn nên mong đợi QA không tìm thấy vấn đề gì. Việc cố tình gửi mã mà bạn biết là bị lỗi cho QA là không chuyên nghiệp. ***Và bạn biết mã nào bị lỗi? Bất kỳ mã nào bạn không chắc chắn về nó!***
 Một số người sử dụng QA làm công cụ bắt lỗi. Họ gửi cho họ mã mà họ chưa kiểm tra kỹ lưỡng. Họ phụ thuộc vào QA để tìm lỗi và báo cáo lại cho nhà phát triển. Thật vậy, một số công ty thưởng QA dựa trên số lượng lỗi mà họ tìm thấy. Càng nhiều lỗi, phần thưởng càng lớn.
 Đừng bận tâm rằng đây là một hành vi cực kỳ tốn kém gây thiệt hại cho công ty và phần mềm. Đừng bận tâm rằng hành vi này làm hỏng lịch trình và làm suy giảm niềm tin của doanh nghiệp vào nhóm phát triển. Đừng bận tâm rằng hành vi này chỉ đơn giản là lười biếng và vô trách nhiệm. Phát hành mã cho QA
@@ -74,7 +75,7 @@ Toàn bộ quy trình QA cho FitNesse là việc thực hiện đơn vị và ki
 Hiện tại, đúng là không ai chết nếu có lỗi trong FitNesse. Cũng không ai mất hàng triệu đô la. Mặt khác, FitNesse có hàng nghìn người dùng và một danh sách lỗi rất nhỏ.
 Chắc chắn một số hệ thống có nhiệm vụ quan trọng đến mức không đủ để xác định mức độ sẵn sàng triển khai. Mặt khác, bạn với tư cách là nhà phát triển cần một cơ chế tương đối nhanh chóng và đáng tin cậy để biết rằng mã bạn đã viết hoạt động và không can thiệp vào phần còn lại của hệ thống. Vì vậy, ít nhất, các bài kiểm tra tự động của bạn sẽ cho bạn biết rằng hệ thống rất có khả năng vượt qua QA.
 
-## DO NO HARM TO STRUCTURE
+### Không làm hại đến cấu trúc
 Một chuyên gia thực sự biết rằng việc cung cấp chức năng mà không cần đến cấu trúc là một việc vặt vãnh. **Chính cấu trúc code của bạn cho phép nó linh hoạt.** Nếu bạn thỏa hiệp với cấu trúc, bạn sẽ thỏa hiệp với tương lai.
 Giả định cơ bản của tất cả các dự án phần mềm là phần mềm dễ thay đổi. Nếu bạn vi phạm giả định này bằng cách tạo ra các cấu trúc không linh hoạt, thì bạn đã cắt xén mô hình kinh tế mà toàn bộ ngành công nghiệp dựa trên nó.
 Tóm lại: Bạn phải có khả năng thực hiện các thay đổi mà không phải trả phí cắt cổ.
@@ -90,7 +91,7 @@ Triết lý này đôi khi được gọi là tái cấu trúc không thương t
 Tất cả trở lại với các bài kiểm tra. Nếu bạn có một bộ kiểm tra tự động bao gồm gần như 100% mã và nếu bộ kiểm tra đó có thể được thực thi nhanh chóng theo ý thích, thì bạn sẽ không ngại thay đổi mã. Làm thế nào để bạn chứng minh rằng bạn không sợ thay đổi mã? Bạn thay đổi nó mọi lúc.
 Các nhà phát triển chuyên nghiệp rất chắc chắn về mã và các thử nghiệm của họ, đến nỗi họ rất bình thường về việc thực hiện các thay đổi ngẫu nhiên, mang tính cơ hội. Họ sẽ thay đổi tên của một lớp học, tùy theo ý thích. Họ sẽ nhận thấy một phương pháp dài hạn trong khi đọc qua một mô-đun và phân vùng lại nó như một điều tất nhiên. Họ sẽ biến đổi một câu lệnh switch thành triển khai đa hình hoặc thu gọn hệ thống phân cấp kế thừa thành một chuỗi lệnh. Nói tóm lại, họ xử lý phần mềm như cách một nhà điêu khắc xử lý đất sét — họ liên tục tạo hình và nhào nặn nó.
 
-### ĐẠO ĐỨC LÀM VIỆC
+## ĐẠO ĐỨC LÀM VIỆC
 Sự nghiệp của bạn là trách nhiệm của bạn. Chủ nhân của bạn không có trách nhiệm đảm bảo rằng bạn có thể tiếp thị được. Chủ nhân của bạn không có trách nhiệm đào tạo bạn, đưa bạn đến các hội nghị, hoặc mua sách cho bạn. Những điều này là trách nhiệm của bạn. Khốn cho nhà phát triển phần mềm, người giao phó sự nghiệp của mình cho người chủ của mình.
 Một số nhà tuyển dụng sẵn sàng mua sách cho bạn và gửi bạn đến các lớp đào tạo và hội nghị. Tốt thôi, họ đang giúp đỡ bạn. Nhưng đừng bao giờ rơi vào bẫy khi nghĩ rằng đây là trách nhiệm chủ nhân của bạn. Nếu chủ nhân của bạn không làm những điều này cho bạn, bạn nên tự tìm cách thực hiện chúng.
 Chủ nhân của bạn cũng không có trách nhiệm phải cho bạn thời gian bạn cần để học hỏi. Một số nhà tuyển dụng có thể cung cấp thời gian đó. Một số nhà tuyển dụng thậm chí có thể yêu cầu bạn dành thời gian. Nhưng một lần nữa, họ đang giúp đỡ bạn và bạn nên được đánh giá cao. Những ưu ái như vậy không phải là điều bạn nên mong đợi.
@@ -103,7 +104,7 @@ Có lẽ bạn nghĩ rằng công việc nên làm ở nơi làm việc và bạ
 bạn. Chúng sẽ được sử dụng để làm cho bạn có giá trị hơn với tư cách là một chuyên gia.
 Có lẽ bạn nghĩ rằng đây là một công thức để kiệt sức. Ngược lại, nó là một công thức để tránh kiệt sức. Có thể bạn đã trở thành một nhà phát triển phần mềm vì bạn đam mê phần mềm và mong muốn trở thành một chuyên gia được thúc đẩy bởi niềm đam mê đó. Trong 20 giờ đó, bạn nên làm những việc để củng cố niềm đam mê đó. 20 giờ đó sẽ rất vui!
 
-### KNOW YOUR FIELD
+## Hiểu biết về lĩnh vực
 Bạn có biết biểu đồ Nassi-Schneiderman là gì không? Nếu không, tai sao không? Bạn có biết sự khác biệt giữa máy Mealy và máy trạng thái Moore không? Bạn nên biết.
 Bạn có thể viết một câu nhanh mà không cần tra cứu nó không? Bạn có biết thuật ngữ "Phân tích chuyển đổi" có nghĩa là gì không? Bạn có thể thực hiện phân rã chức năng với Sơ đồ luồng dữ liệu không? Thuật ngữ “Dữ liệu lang thang” có nghĩa là gì? Bạn đã nghe thuật ngữ “Conascence” chưa? Bảng Parnas là gì?
 Vô số ý tưởng, kỷ luật, kỹ thuật, công cụ và thuật ngữ trang trí cho lĩnh vực của chúng tôi trong 50 năm qua. Bạn biết bao nhiêu trong số này? ***Nếu bạn muốn trở thành một người chuyên nghiệp, bạn nên biết một phần lớn của nó và không ngừng tăng kích thước của phần đó.***
@@ -120,13 +121,13 @@ Phân tích có cấu trúc và Thiết kế có cấu trúc.
 Kỷ luật. Bạn nên thực hành TDD, Thiết kế hướng đối tượng, Lập trình có cấu trúc, Tích hợp liên tục và Lập trình theo cặp.
 • Phần mềm: Bạn nên biết cách sử dụng: UML, DFDs, Biểu đồ cấu trúc, Petri Nets, Sơ đồ và Bảng chuyển đổi trạng thái, biểu đồ luồng và bảng quyết định.
 
-### CONTINUOUS LEARNING
+## Tiếp tục học hỏi
 Tốc độ thay đổi điên cuồng trong ngành của chúng ta có nghĩa là các nhà phát triển phần mềm phải tiếp tục học hỏi nhiều thứ chỉ để theo kịp. Khốn cho những kiến ​​trúc sư ngừng viết mã — họ sẽ nhanh chóng thấy mình không liên quan. Khốn cho những lập trình viên ngừng học ngôn ngữ mới — họ sẽ nhìn ngành công nghiệp trôi qua. Khốn cho những nhà phát triển không học được các kỷ luật và kỹ thuật mới — các đồng nghiệp của họ sẽ nổi trội khi họ sa sút.
 Bạn có đến thăm một bác sĩ không cập nhật các tạp chí y khoa không?
 Bạn có thuê một luật sư thuế không tuân thủ các luật và tiền lệ thuế không? Tại sao nhà tuyển dụng nên thuê các nhà phát triển không cập nhật? Đọc sách, bài báo, blog, tweet. Đi dự hội nghị. Chuyển đến nhóm người dùng.
 Tham gia đọc sách và học nhóm. Tìm hiểu những điều nằm ngoài vùng an toàn của bạn. Nếu bạn là một lập trình viên .NET, hãy học Java. Nếu bạn là một lập trình viên Java, hãy học Ruby. Nếu bạn là một lập trình viên C, hãy học Lisp. Nếu bạn muốn thực sự uốn cong bộ não của mình, hãy học Prolog và Forth!
 
-### THỰC HÀNH
+## THỰC HÀNH
 Chuyên gia họ thực hành. Các chuyên gia chân chính làm việc chăm chỉ để giữ cho các kỹ năng của họ luôn sắc bén và sẵn sàng. ***Chỉ đơn giản làm công việc hàng ngày của bạn và gọi đó là thực hành là chưa đủ.***
 Làm công việc hàng ngày của bạn là hiệu suất, không phải luyện tập. Thực hành là khi bạn
 đặc biệt thực hiện các kỹ năng của bạn ngoài việc thực hiện công việc với mục đích duy nhất là tinh chỉnh và nâng cao các kỹ năng đó.
@@ -138,23 +139,23 @@ Tôi sẽ thực hiện một hoặc hai bài kata mỗi ngày, thường là m�
 bằng Java, hoặc bằng Ruby, hoặc bằng Clojure, hoặc bằng một số ngôn ngữ khác mà tôi muốn duy trì kỹ năng của mình. Tôi sẽ sử dụng kata để rèn giũa một kỹ năng cụ thể, chẳng hạn như giữ cho các ngón tay của tôi quen với việc nhấn phím tắt hoặc sử dụng một số cấu trúc lại.
 Hãy coi kata như một bài tập khởi động 10 phút vào buổi sáng và 10 phút hạ nhiệt vào buổi tối.
 
-### COLLABORATION
+## Hợp tác
 Cách tốt nhất thứ hai để học là cộng tác với những người khác. Các nhà phát triển phần mềm chuyên nghiệp nỗ lực đặc biệt để cùng nhau lập trình, cùng nhau thực hành, cùng nhau thiết kế và lập kế hoạch. Bằng cách đó, họ học hỏi được nhiều điều từ nhau và hoàn thành công việc nhanh hơn với ít lỗi hơn.
 Điều này không có nghĩa là bạn phải dành 100% thời gian của mình để làm việc với những người khác. Thời gian ở một mình cũng rất quan trọng. Tôi rất thích ghép nối chương trình với những người khác, điều đó khiến tôi phát điên nếu thỉnh thoảng không thể tự mình thoát ra được.
 
-### MENTORING
+## Cố vấn
 Cách tốt nhất để học là dạy. Không gì có thể đưa các dữ kiện và giá trị vào đầu bạn nhanh hơn và khó hơn việc phải truyền đạt chúng cho những người mà bạn có trách nhiệm. Vì vậy, lợi ích của việc giảng dạy là nghiêng về phía người giáo viên.
 Tương tự như vậy, không có cách nào tốt hơn để đưa những người mới vào một tổ chức hơn là ngồi xuống với họ và chỉ cho họ những sợi dây. Các chuyên gia chịu trách nhiệm cá nhân trong việc kèm cặp đàn em. Họ sẽ không để cho một đàn em than vãn về việc không được giám sát.
 
-### KNOW YOUR DOMAIN
+## Biết về lĩnh vực của bạn
 Mọi chuyên gia phần mềm có trách nhiệm hiểu rõ lĩnh vực giải pháp mà họ đang lập trình. Nếu bạn đang viết một hệ thống kế toán, bạn nên biết lĩnh vực kế toán. Nếu bạn đang viết một ứng dụng du lịch, bạn nên biết ngành công nghiệp du lịch. Bạn không cần phải là một chuyên gia tên miền, nhưng bạn cần phải tham gia vào quá trình thẩm định hợp lý.
 Khi bắt đầu một dự án trong một miền mới, hãy đọc một hoặc hai cuốn sách về chủ đề này. Phỏng vấn khách hàng và người dùng của bạn về nền tảng và khái niệm cơ bản của miền. Dành một chút thời gian với các chuyên gia và cố gắng hiểu các nguyên tắc và giá trị của họ.
 Đó là loại hành vi thiếu chuyên nghiệp tồi tệ nhất nếu chỉ viết mã từ một thông số kỹ thuật mà không hiểu tại sao thông số đó lại có ý nghĩa đối với doanh nghiệp. Thay vào đó, bạn nên biết đủ về miền để có thể nhận ra và xử lý các lỗi đặc tả.
-### IDENTIFY WITH YOUR EMPLOYER/CUSTOMER
+## Đặt mình vào vị trí của khách hàng
 Vấn đề của chủ nhân là vấn đề của bạn. Bạn cần hiểu những vấn đề đó là gì và hướng tới những giải pháp tốt nhất. Khi phát triển một hệ thống, bạn cần đặt mình vào vị trí của người sử dụng lao động và đảm bảo rằng các tính năng bạn đang phát triển thực sự đáp ứng được nhu cầu của người sử dụng lao động.
 Rất dễ dàng để các nhà phát triển xác định với nhau. Bạn rất dễ rơi vào thái độ giữa chúng tôi và họ với chủ nhân của mình. Các chuyên gia tránh điều này bằng mọi giá.
 
-### HUMILITY
+## Khiêm Tốn
 Lập trình là một hành động sáng tạo. Khi chúng ta viết mã, chúng ta đang tạo ra thứ gì đó từ hư vô. Chúng tôi mạnh dạn áp đặt trật tự khi hỗn loạn. Chúng tôi tự tin chỉ huy, chi tiết một cách chính xác, các hành vi của một cỗ máy có thể gây ra thiệt hại khôn lường. Và vì vậy, lập trình là một hành động của sự kiêu ngạo tối cao.
 Các chuyên gia biết họ kiêu ngạo và không khiêm tốn một cách sai lầm. Một người chuyên nghiệp biết công việc của mình và tự hào về công việc của mình. Một người chuyên nghiệp luôn tự tin vào khả năng của mình và chấp nhận rủi ro một cách táo bạo và có tính toán dựa trên sự tự tin đó. Một người chuyên nghiệp không rụt rè.
 Tuy nhiên, một người chuyên nghiệp cũng biết rằng sẽ có lúc anh ta thất bại, tính toán rủi ro sai lầm, khả năng của anh ta sẽ thiếu hụt; anh ấy sẽ nhìn vào gương và thấy một kẻ ngốc kiêu ngạo đang mỉm cười lại với anh ấy.
