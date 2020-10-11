@@ -14,6 +14,7 @@ chủ yếu()
 {
 printf ("xin chào, thế giới \ n");
 }
+
 Ai trong chúng ta đã không viết chương trình đó bằng hình thức này hay hình thức khác? Chúng tôi sử dụng nó
 như một cách để chứng minh một môi trường mới hoặc một ngôn ngữ mới. Viết và thực hiện
 chương trình đó là bằng chứng cho thấy chúng ta có thể viết và thực thi bất kỳ chương trình nào.
@@ -85,9 +86,7 @@ Không phải lúc nào bạn cũng nên đi nhanh như vậy. Thường thì t�
 Nhưng có những lúc khác khi quay vòng đó càng nhanh càng tốt
 năng suất cao.
 Làm bất cứ điều gì nhanh chóng cần phải thực hành. Quay xung quanh mã / vòng lặp kiểm tra
-nhanh chóng đòi hỏi bạn phải đưa ra quyết định rất nhanh. Đưa ra quyết định nhanh chóng
-có nghĩa là có thể nhận ra một số lượng lớn các tình huống và vấn đề và
-chỉ cần biết phải làm gì để giải quyết chúng.
+nhanh chóng đòi hỏi bạn phải đưa ra quyết định rất nhanh. Đ**ưa ra quyết định nhanh chóng có nghĩa là có thể nhận ra một số lượng lớn các tình huống và vấn đề và chỉ cần biết phải làm gì để giải quyết chúng.**
 Hãy xem xét hai võ sĩ trong trận chiến. Mỗi người phải nhận ra những gì khác
 đang cố gắng và phản hồi một cách thích hợp trong vòng mili giây. Trong một trận chiến
 tình huống bạn không có thời gian rảnh rỗi, nghiên cứu các vị trí và
@@ -99,16 +98,14 @@ Khi bạn quay vòng lặp mã / kiểm tra vài lần mỗi phút, nó sẽ
 cơ thể của bạn biết phím nào để đánh. Một phần nguyên thủy của tâm trí bạn nhận ra
 tình huống và phản ứng trong vòng mili giây với giải pháp thích hợp trong khi
 tâm trí của bạn được tự do để tập trung vào vấn đề cấp cao hơn.
-Trong cả trường hợp võ thuật và trường hợp lập trình, tốc độ phụ thuộc vào
-thực hành. Và trong cả hai trường hợp, thực hành là tương tự. Chúng tôi chọn một tiết mục của
+Trong cả trường hợp võ thuật và trường hợp lập trình, ***tốc độ phụ thuộc vào thực hành*** Và trong cả hai trường hợp, thực hành là tương tự. Chúng tôi chọn một tiết mục của
 các cặp vấn đề / giải pháp và thực hiện chúng lặp đi lặp lại cho đến khi chúng ta biết
 chúng lạnh lùng.
 Hãy xem xét một nghệ sĩ guitar như Carlos Santana. Âm nhạc trong đầu anh ấy chỉ đơn giản là đến
-ra khỏi ngón tay của mình. Anh ấy không tập trung vào vị trí ngón tay hoặc kỹ thuật chọn. Của anh ấy
-tâm trí có thể tự do lên kế hoạch cho những giai điệu và hòa âm ở cấp độ cao hơn trong khi cơ thể của mình
-chuyển các kế hoạch đó thành chuyển động ngón tay cấp thấp hơn.
-Nhưng để đạt được kiểu chơi dễ dàng đó thì cần phải luyện tập. Nhạc công luyện thang âm
+ra khỏi ngón tay của mình. ***Anh ấy không tập trung vào vị trí ngón tay hoặc kỹ thuật chọn. Của anh ấy tâm trí có thể tự do lên kế hoạch cho những giai điệu và hòa âm ở cấp độ cao hơn trong khi cơ thể của mình chuyển các kế hoạch đó thành chuyển động ngón tay cấp thấp hơn.***
+**Nhưng để đạt được kiểu chơi dễ dàng đó thì cần phải luyện tập.** Nhạc công luyện thang âm
 và vui mừng và nói đi nói lại cho đến khi họ biết họ lạnh.
+
 ### T H E C O D I N G D O J O
 Kể từ năm 2001, tôi đã biểu diễn TDD mà tôi gọi là The Bowling
 Trò chơi. 3 Đó là một bài tập nhỏ đáng yêu mất khoảng ba mươi phút. Nó trải nghiệm
@@ -135,7 +132,7 @@ máy tính xách tay và gõ phím bằng cách gõ phím, theo sau cùng với 
 Kata trò chơi Bowling.
 Có một số loại hoạt động diễn ra trong võ đường. Ở đây có một ít
 
-#### K ATA 
+#### KATA 
 Trong võ thuật, kata là một tập hợp các động tác được biên đạo chính xác mô phỏng
 một bên của cuộc chiến. Mục tiêu, được tiếp cận một cách tiệm cận, là sự hoàn hảo.
 Người nghệ sĩ cố gắng dạy cơ thể của mình để thực hiện từng chuyển động một cách hoàn hảo và
@@ -176,7 +173,7 @@ path.html
 Đối với một thử thách thực sự, hãy thử học một thanh kata thật tốt để bạn có thể chuyển nó thành nhạc.
 Làm tốt điều này thật khó. 7
 
-#### W A S A
+#### WASA
 
 Khi tôi học jujitsu, phần lớn thời gian của chúng tôi trong võ đường dành cho việc luyện tập theo cặp
 wasa của chúng tôi. Wasa rất giống một thanh kata hai người. Các thói quen chính xác là
@@ -200,7 +197,7 @@ triển khai một thuật toán sắp xếp, người viết thử nghiệm có
 và không gian bộ nhớ sẽ thách thức đối tác của mình. Điều này có thể làm cho trò chơi khá
 có năng lực. . . và vui vẻ.
 
-#### R ANDORI
+#### RANDORI
 Randori là hình thức chiến đấu tự do. Trong võ đường jujitsu của chúng tôi, chúng tôi sẽ thiết lập một loạt các
 các kịch bản chiến đấu và sau đó ban hành chúng. Đôi khi một người được yêu cầu bảo vệ,
 trong khi mỗi người trong số chúng tôi sẽ tấn công anh ta theo trình tự. Đôi khi chúng tôi sẽ
@@ -210,46 +207,33 @@ Chiến đấu mô phỏng không lập trình bản đồ tốt; tuy nhiên, c�
 được chơi ở nhiều dojos mã hóa được gọi là randori. Nó rất giống hai người đàn ông
 wasa trong đó các đối tác đang giải quyết một vấn đề. Tuy nhiên, nó được chơi với
 nhiều người và các quy tắc có một sự thay đổi. Với màn hình chiếu trên tường,
-một người viết một bài kiểm tra và sau đó ngồi xuống. Người tiếp theo làm cho bài kiểm tra vượt qua
-và sau đó viết bài kiểm tra tiếp theo. Điều này có thể được thực hiện theo trình tự xung quanh bảng, hoặc
-mọi người có thể chỉ cần xếp hàng khi họ cảm thấy rất xúc động. Trong cả hai trường hợp, các bài tập này
+một người viết một bài kiểm tra và sau đó ngồi xuống. Người tiếp theo làm cho bài kiểm tra vượt qua và sau đó viết bài kiểm tra tiếp theo. Điều này có thể được thực hiện theo trình tự xung quanh bảng, hoặc mọi người có thể chỉ cần xếp hàng khi họ cảm thấy rất xúc động. Trong cả hai trường hợp, các bài tập này
 có thể là rất nhiều niềm vui.
-8. http://c2.com/cgi/wiki?PairProgrammingPingPongPattern
-92B ROADENING Y OUR E XPERIENCE
-Điều đáng chú ý là bạn có thể học được bao nhiêu từ những buổi học này. Bạn có thể đạt được một
-cái nhìn sâu sắc về cách người khác giải quyết vấn đề. Những thông tin chi tiết này có thể
+
+Điều đáng chú ý là bạn có thể học được bao nhiêu từ những buổi học này. **Bạn có thể đạt được một
+cái nhìn sâu sắc về cách người khác giải quyết vấn đề** Những thông tin chi tiết này có thể
 chỉ phục vụ cho việc mở rộng cách tiếp cận của riêng bạn và cải thiện kỹ năng của bạn.
 
 
 ## B R O A D E N I N G Y O U R E X P E R I E N C E
-Các lập trình viên chuyên nghiệp thường bị thiếu sự đa dạng trong các loại
-vấn đề mà họ giải quyết. Nhà tuyển dụng thường thực thi một ngôn ngữ, nền tảng,
-và miền mà các lập trình viên của họ phải làm việc. Không cần mở rộng
-ảnh hưởng, điều này có thể dẫn đến việc thu hẹp sơ yếu lý lịch của bạn và
-tư duy. Không có gì lạ khi những lập trình viên như vậy thấy mình không được chuẩn bị
-cho những thay đổi định kỳ quét ngành.
+Các lập trình viên chuyên nghiệp thường bị thiếu sự đa dạng trong **các loại vấn đề mà họ giải quyết**. Nhà tuyển dụng thường thực thi một ngôn ngữ, nền tảng, và miền mà các lập trình viên của họ phải làm việc. Không cần mở rộng
+ảnh hưởng, điều này có thể dẫn đến việc thu hẹp sơ yếu lý lịch của bạn và **tư duy**. Không có gì lạ khi những lập trình viên như vậy thấy mình không được chuẩn bị cho những thay đổi định kỳ quét ngành.
+
 ### MÃ NGUỒN MỞ
 Một cách để luôn dẫn đầu là làm những gì luật sư và bác sĩ làm:
 một số pro-bono hoạt động bằng cách đóng góp vào một dự án mã nguồn mở. Có rất nhiều
-chúng ngoài kia, và có lẽ không có cách nào tốt hơn để tăng số lượng
-kỹ năng hơn là thực sự làm việc trên một cái gì đó mà người khác quan tâm.
+chúng ngoài kia, và có lẽ không có cách nào tốt hơn để tăng số lượng kỹ năng hơn là thực sự làm việc trên một cái gì đó mà người khác quan tâm.
 Vì vậy, nếu bạn là một lập trình viên Java, hãy đóng góp vào một dự án Rails. Nếu bạn viết nhiều
 của C ++ cho nhà tuyển dụng của bạn, hãy tìm một dự án Python và đóng góp cho nó.
+
 ### P R ACTI C E E TH I C S
-Các lập trình viên chuyên nghiệp thực hành theo thời gian của riêng họ. Nó không phải của chủ nhân của bạn
-công việc để giúp bạn giữ cho kỹ năng của bạn sắc bén cho bạn. Công việc của chủ lao động không phải là
-giúp bạn luôn chỉnh sửa sơ yếu lý lịch của mình. Bệnh nhân không trả tiền cho bác sĩ để thực hành các vết khâu.
-Người hâm mộ bóng đá không (thường) trả tiền để xem các cầu thủ chạy bằng lốp xe. Người đi xem hòa nhạc
-không trả tiền để nghe nhạc công chơi thang âm. Và nhà tuyển dụng của các lập trình viên không
-phải trả tiền cho bạn cho thời gian thực hành của bạn.
-Vì thời gian thực hành của bạn là thời gian của riêng bạn, bạn không cần phải sử dụng các ngôn ngữ giống nhau
-hoặc các nền tảng mà bạn sử dụng với chủ nhân của mình. Chọn bất kỳ ngôn ngữ nào bạn thích và
-giữ cho kỹ năng đa ngôn ngữ của bạn sắc nét. Nếu bạn làm việc trong một cửa hàng .NET, hãy thực hành một chút Java
+Các lập trình viên chuyên nghiệp thực hành theo thời gian của riêng họ. Nó không phải của chủ nhân của bạn công việc để giúp bạn giữ cho kỹ năng của bạn sắc bén cho bạn. Công việc của chủ lao động không phải là giúp bạn luôn chỉnh sửa sơ yếu lý lịch của mình. Bệnh nhân không trả tiền cho bác sĩ để thực hành các vết khâu.
+Người hâm mộ bóng đá không (thường) trả tiền để xem các cầu thủ chạy bằng lốp xe. Người đi xem hòa nhạc không trả tiền để nghe nhạc công chơi thang âm. Và nhà tuyển dụng của các lập trình viên không phải trả tiền cho bạn cho thời gian thực hành của bạn.
+Vì thời gian thực hành của bạn là thời gian của riêng bạn, bạn không cần phải sử dụng các ngôn ngữ giống nhau hoặc các nền tảng mà bạn sử dụng với chủ nhân của mình. Chọn bất kỳ ngôn ngữ nào bạn thích và giữ cho kỹ năng đa ngôn ngữ của bạn sắc nét. Nếu bạn làm việc trong một cửa hàng .NET, hãy thực hành một chút Java
 hoặc Ruby vào bữa trưa, hoặc ở nhà.
 
 ## PHẦN KẾT LUẬN
 Bằng cách này hay cách khác, tất cả các chuyên gia đều thực hành. Họ làm điều này bởi vì họ
-quan tâm đến việc làm tốt nhất công việc mà họ có thể. Hơn nữa, họ thực hành trên
+**quan tâm đến việc làm tốt nhất công việc mà họ có thể.** Hơn nữa, họ thực hành trên
 thời gian của riêng họ bởi vì họ nhận ra rằng đó là trách nhiệm của họ — chứ không phải của họ
-của nhà tuyển dụng — để giữ cho kỹ năng của họ luôn sắc bén. Thực hành là những gì bạn làm khi bạn không
-nhận được thanh toán. Bạn làm điều đó để bạn sẽ được trả công, và được trả công xứng đáng.
+của nhà tuyển dụng — để giữ cho kỹ năng của họ luôn sắc bén. Thực hành là những gì bạn làm khi bạn không nhận được thanh toán. Bạn làm điều đó để bạn sẽ được trả công, và được trả công xứng đáng.

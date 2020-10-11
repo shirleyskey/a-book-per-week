@@ -209,7 +209,7 @@ sự không chắc chắn đối với Marge. Marge có thể đối phó với 
 mặt khác, cô ấy có thể không.
 
 
-### C HƯỚNG DẪN VỚI D ISCIPLINE
+### C HƯỚNG DẪN VỚI DISCIPLINE
     Marge: “Peter, tôi cần có hoặc không rõ ràng. Bạn sẽ có công cụ đánh giá
     đã hoàn thành và được ghi lại vào thứ Sáu? "
 
@@ -232,7 +232,7 @@ anh ấy sẽ không bao giờ hoàn thành sổ tay đúng hạn. Bạn có th�
     từ đầu ra của quá trình chạy thử nghiệm. ”
     Marge: “Chà, không có cách nào bạn có thể hoàn thành các bản mod và
     tài liệu trước sáng thứ Hai? "
-    
+
 Bây giờ Peter có một quyết định để thực hiện. Có một cơ hội tốt là anh ấy sẽ hoàn thành
 đánh giá các sửa đổi động cơ vào thứ Sáu và anh ấy thậm chí có thể hoàn thành
 tài liệu trước khi anh ấy về nhà vào cuối tuần. Anh ấy có thể làm một vài giờ làm việc trên

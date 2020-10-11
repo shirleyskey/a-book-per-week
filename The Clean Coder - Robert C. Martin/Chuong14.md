@@ -116,5 +116,6 @@ Bạn nắm bắt nó bằng cách quan sát những người khác và cho phé
 Bạn không thể thuyết phục mọi người trở thành thợ thủ công. Bạn không thể thuyết phục họ chấp nhận meme thủ công. Lập luận không hiệu quả. Dữ liệu là không quan trọng.
 Các nghiên cứu điển hình không có ý nghĩa gì. Việc chấp nhận một meme không phải là một quyết định lý trí như một quyết định cảm tính. Đây là một điều rất con người.
 Vậy làm cách nào để khiến mọi người chấp nhận meme của nghề thủ công? Hãy nhớ rằng meme có thể lây lan, nhưng chỉ khi nó có thể được quan sát thấy. Vì vậy, bạn làm cho meme có thể quan sát được. Bạn hoạt động như một hình mẫu. Bạn trở thành một nghệ nhân trước tiên, và để cho sự khéo léo của bạn thể hiện. Sau đó, chỉ cần để meme làm phần còn lại của công việc.
+
 Trường có thể dạy lý thuyết về lập trình máy tính. Nhưng trường học thì không, và không thể dạy kỷ luật, thực hành và kỹ năng trở thành một nghệ nhân. Những điều đó có được qua nhiều năm dạy dỗ và kèm cặp của cá nhân. Đã đến lúc chúng ta trong ngành công nghiệp phần mềm phải đối mặt với thực tế rằng việc hướng dẫn lứa nhà phát triển phần mềm tiếp theo trưởng thành sẽ thuộc về chúng ta chứ không phải các trường đại học.
 Đã đến lúc chúng ta phải áp dụng một chương trình học việc, thực tập và hướng dẫn dài hạn.

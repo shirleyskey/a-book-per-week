@@ -187,9 +187,7 @@ Họ đã chú ý thích đáng đến các chi tiết. Họ đã quan tâm.
 #### Ron Jeffries, author of Extreme Programming
 #### Installed and Extreme Programming
 #### Adventures in C#
-Ron bắt đầu lập trình sự nghiệp của mình ở Fortran tại
-Bộ Tư lệnh Không quân Chiến lược và đã viết mã trong
-hầu hết mọi ngôn ngữ và trên hầu hết mọi
+Ron bắt đầu lập trình sự nghiệp của mình ở Fortran tại Bộ Tư lệnh Không quân Chiến lược và đã viết mã trong hầu hết mọi ngôn ngữ và trên hầu hết mọi
 máy móc. Cần cân nhắc kỹ lời nói của anh ta.
 Trong những năm gần đây, tôi bắt đầu và gần kết thúc, với Beck’s
 quy tắc của mã đơn giản. Theo thứ tự ưu tiên, mã đơn giản:

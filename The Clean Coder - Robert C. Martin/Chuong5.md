@@ -3,26 +3,26 @@
 trong ngành công nghiệp. Nó là một phần của làn sóng Lập trình Cực đoan (XP), nhưng
 kể từ đó đã được Scrum áp dụng và hầu như tất cả các phương pháp Agile khác.
 Ngay cả các nhóm không Agile cũng thực hành TDD.
+
 Vào năm 1998, lần đầu tiên tôi nghe nói về “Lập trình thử nghiệm đầu tiên”, tôi đã nghi ngờ. WHO
 sẽ không? Viết bài kiểm tra đơn vị của bạn trước? Ai sẽ làm một điều ngốc nghếch như thế?
-77C CHƯƠNG 5
-HƯỚNG PHÁT TRIỂN THỬ NGHIỆM
+
 Nhưng tôi đã là một lập trình viên chuyên nghiệp được ba mươi năm rồi và tôi đã thấy
 mọi thứ đến và đi trong ngành. Tôi biết tốt hơn là nên gạt bỏ bất cứ điều gì
 đặc biệt là khi một người như Kent Beck nói điều đó.
-Vì vậy, vào năm 1999, tôi đã đến Medford, Oregon, để gặp Kent và tìm hiểu
-kỷ luật từ anh ta. Toàn bộ trải nghiệm là một cú sốc!
+
+Vì vậy, vào năm 1999, tôi đã đến Medford, Oregon, để gặp Kent và tìm hiểu kỷ luật từ anh ta. Toàn bộ trải nghiệm là một cú sốc!
+
 Kent và tôi ngồi xuống văn phòng của anh ấy và bắt đầu giải mã một số vấn đề nhỏ đơn giản
 trong Java. Tôi chỉ muốn viết điều ngớ ngẩn. Nhưng Kent chống lại và đưa tôi, bước
-từng bước, thông qua quy trình. Đầu tiên, anh ấy viết một phần nhỏ của bài kiểm tra đơn vị, hầu như không
-đủ điều kiện làm mã. Sau đó, anh ấy viết mã vừa đủ để thực hiện bài kiểm tra đó
+từng bước, thông qua quy trình. Đầu tiên, anh ấy viết một phần nhỏ của bài kiểm tra đơn vị, hầu như không đủ điều kiện làm mã. Sau đó, anh ấy viết mã vừa đủ để thực hiện bài kiểm tra đó
 biên dịch. Sau đó, anh ấy viết thêm một bài kiểm tra nhỏ, rồi nhiều mã hơn.
+
 Thời gian chu kỳ hoàn toàn nằm ngoài kinh nghiệm của tôi. Tôi đã quen với việc viết
 viết mã cho phần tốt hơn của một giờ trước khi cố gắng biên dịch hoặc chạy nó. Nhưng Kent
 theo nghĩa đen đang thực thi mã của mình cứ sau 30 giây hoặc lâu hơn. Tôi đã kinh ngạc!
 Hơn nữa, tôi đã nhận ra thời gian chu kỳ! Đó là loại thời gian chu kỳ tôi đã sử dụng
-những năm trước khi còn là một đứa trẻ, 1 lập trình trò chơi bằng các ngôn ngữ thông dịch như Basic hoặc
-Logo. Trong các ngôn ngữ đó, không có thời gian xây dựng, vì vậy bạn chỉ cần thêm một dòng mã
+những năm trước khi còn là một đứa trẻ, 1 lập trình trò chơi bằng các ngôn ngữ thông dịch như Basic hoặc Logo. Trong các ngôn ngữ đó, không có thời gian xây dựng, vì vậy bạn chỉ cần thêm một dòng mã
 và sau đó thực thi. Bạn đi vòng quanh chu kỳ rất nhanh. Và vì lý do đó,
 bạn có thể rất hiệu quả bằng những ngôn ngữ đó.
 Nhưng trong lập trình thực tế, loại thời gian chu kỳ đó là vô lý. Trong thực tế
@@ -37,28 +37,24 @@ mã bằng ngôn ngữ thực với thời gian chu kỳ của Logo! Tôi đã b
 
 
 ## T H E J U R Y I S I N
-Kể từ những ngày đó, tôi đã biết rằng TDD không chỉ là một thủ thuật đơn giản để
-rút ngắn thời gian chu kỳ của tôi. Kỷ luật có rất nhiều lợi ích mà tôi sẽ
-mô tả trong các đoạn văn sau.
+Kể từ những ngày đó, tôi đã biết rằng TDD không chỉ là một thủ thuật đơn giản để rút ngắn thời gian chu kỳ của tôi. Kỷ luật có rất nhiều lợi ích mà tôi sẽ mô tả trong các đoạn văn sau.
+
 Nhưng trước tiên tôi cần nói điều này:
-• Ban giám khảo đã vào cuộc!
-• Cuộc tranh cãi đã kết thúc.
-•
-ĐI ĐẾN
-Là có hại.
-• Và TDD hoạt động.
-Có, đã có rất nhiều blog và bài báo gây tranh cãi viết về TDD
-trong những năm qua và vẫn còn. Trong những ngày đầu họ đã cố gắng nghiêm túc
+
+    • Ban giám khảo đã vào cuộc!
+    • Cuộc tranh cãi đã kết thúc.
+    • ĐI ĐẾN
+    Là có hại.
+    • Và TDD hoạt động.
+
+Có, đã có rất nhiều blog và bài báo gây tranh cãi viết về TDD trong những năm qua và vẫn còn. Trong những ngày đầu họ đã cố gắng nghiêm túc
 phê bình và hiểu biết. Tuy nhiên, ngày nay chúng chỉ là những lời khen ngợi. Dưới cùng
 là TDD hoạt động và mọi người cần phải vượt qua nó.
 Tôi biết điều này nghe có vẻ cứng rắn và đơn phương, nhưng với thành tích thì tôi không nghĩ
-bác sĩ phẫu thuật phải bảo vệ việc rửa tay và tôi không nghĩ rằng các nhà lập trình
-nên phải bênh vực TDD.
+bác sĩ phẫu thuật phải bảo vệ việc rửa tay và tôi không nghĩ rằng các nhà lập trình nên phải bênh vực TDD.
+
 Làm sao bạn có thể coi mình là một người chuyên nghiệp nếu bạn không biết tất cả
-mã của bạn hoạt động? Làm thế nào bạn có thể biết tất cả mã của bạn hoạt động nếu bạn không kiểm tra nó
-mỗi khi bạn thực hiện một thay đổi? Làm thế nào bạn có thể kiểm tra nó mỗi khi bạn thực hiện
-thay đổi nếu bạn không có thử nghiệm đơn vị tự động với mức độ phù hợp rất cao? Có thể như thế nào
-bạn nhận được các bài kiểm tra đơn vị tự động với độ phủ rất cao mà không cần thực hành TDD?
+mã của bạn hoạt động? Làm thế nào bạn có thể biết tất cả mã của bạn hoạt động nếu bạn không kiểm tra nó mỗi khi bạn thực hiện một thay đổi? Làm thế nào bạn có thể kiểm tra nó mỗi khi bạn thực hiện thay đổi nếu bạn không có thử nghiệm đơn vị tự động với mức độ phù hợp rất cao? Có thể như thế nào bạn nhận được các bài kiểm tra đơn vị tự động với độ phủ rất cao mà không cần thực hành TDD?
 Câu cuối cùng đòi hỏi một số công phu. Chỉ TDD là gì?
 
 ### T H E T H R E E L AW S OF TD D
@@ -68,15 +64,13 @@ một bài kiểm tra đơn vị không đạt.
 không biên dịch là không thành công.
 3. Bạn không được phép viết thêm mã sản xuất đủ để vượt qua
 bài kiểm tra đơn vị hiện đang thất bại.
-Ba định luật này khóa bạn vào một chu kỳ, có lẽ dài ba mươi giây. Bạn
-bắt đầu bằng cách viết một phần nhỏ của bài kiểm tra đơn vị. Nhưng trong vòng vài giây, bạn
-phải đề cập đến tên của một số lớp hoặc hàm mà bạn chưa viết,
-từ đó khiến unit test không biên dịch được. Vì vậy, bạn phải viết sản xuất
-mã thực hiện biên dịch thử nghiệm. Nhưng bạn không thể viết nhiều hơn thế, vì vậy bạn
+
+Ba định luật này khóa bạn vào một chu kỳ, có lẽ dài ba mươi giây. Bạn bắt đầu bằng cách viết một phần nhỏ của bài kiểm tra đơn vị. Nhưng trong vòng vài giây, bạn
+phải đề cập đến tên của một số lớp hoặc hàm mà bạn chưa viết, từ đó khiến unit test không biên dịch được. Vì vậy, bạn phải viết sản xuất mã thực hiện biên dịch thử nghiệm. Nhưng bạn không thể viết nhiều hơn thế, vì vậy bạn
 bắt đầu viết thêm mã kiểm tra đơn vị.
+
 Làm tròn và làm tròn chu kỳ bạn đi. Thêm một chút vào mã kiểm tra. Thêm một chút vào
-Mã sản xuất. Hai dòng mã phát triển đồng thời thành bổ sung
-các thành phần. Các xét nghiệm phù hợp với mã sản xuất giống như kháng thể phù hợp với kháng nguyên.
+Mã sản xuất. Hai dòng mã phát triển đồng thời thành bổ sung các thành phần. Các xét nghiệm phù hợp với mã sản xuất giống như kháng thể phù hợp với kháng nguyên.
 
 ### T H E L I TA N Y OF B ENEFITS
 #### Certainty
@@ -88,20 +82,17 @@ Tôi là tác giả chính và người duy trì FitNesse, 2 chấp nhận dựa
 công cụ kiểm tra. Tính đến thời điểm này, FitNesse viết được 64.000 dòng mã, trong đó 28.000
 chỉ có trong hơn 2.200 bài kiểm tra đơn vị riêng lẻ. Các bài kiểm tra này bao gồm ít nhất
 90% của mã sản xuất 3 và mất khoảng 90 giây để chạy.
-Bất cứ khi nào tôi thay đổi bất kỳ phần nào của FitNesse, tôi chỉ cần chạy các bài kiểm tra đơn vị. Nếu
-chúng vượt qua, tôi gần như chắc chắn rằng thay đổi tôi đã thực hiện không phá vỡ bất cứ điều gì.
+Bất cứ khi nào tôi thay đổi bất kỳ phần nào của FitNesse, tôi chỉ cần chạy các bài kiểm tra đơn vị. Nếu chúng vượt qua, tôi gần như chắc chắn rằng thay đổi tôi đã thực hiện không phá vỡ bất cứ điều gì.
 "Gần như chắc chắn" đến mức nào? Chắc chắn đủ để xuất xưởng!
 Quy trình QA cho FitNesse là lệnh: ant release. Lệnh đó
 xây dựng FitNesse từ đầu và sau đó chạy tất cả các đơn vị và kiểm tra chấp nhận.
 Nếu những bài kiểm tra đó đều vượt qua, tôi sẽ gửi nó.
 
 #### Defect Injection Rate
-Bây giờ, FitNesse không phải là một ứng dụng quan trọng. Nếu có lỗi, không ai
-chết, và không ai mất hàng triệu đô la. Vì vậy, tôi có thể đủ khả năng giao hàng dựa trên
-không có gì ngoài việc vượt qua các bài kiểm tra. Mặt khác, FitNesse có hàng nghìn người dùng,
+Bây giờ, FitNesse không phải là một ứng dụng quan trọng. Nếu có lỗi, không ai chết, và không ai mất hàng triệu đô la. Vì vậy, tôi có thể đủ khả năng giao hàng dựa trên
+ hông có gì ngoài việc vượt qua các bài kiểm tra. Mặt khác, FitNesse có hàng nghìn người dùng,
 và bất chấp việc bổ sung 20.000 dòng mã mới vào năm ngoái, danh sách lỗi của tôi chỉ
-có 17 lỗi trên đó (nhiều trong số đó là mỹ phẩm trong tự nhiên). Vì vậy tôi biết khuyết điểm của mình
-tỷ lệ tiêm rất thấp.
+có 17 lỗi trên đó (nhiều trong số đó là mỹ phẩm trong tự nhiên). Vì vậy tôi biết khuyết điểm của mình tỷ lệ tiêm rất thấp.
 Đây không phải là một hiệu ứng cô lập. Đã có một số báo cáo 4 và nghiên cứu 5 cho rằng
 mô tả sự giảm thiểu khuyết tật đáng kể. Từ IBM, đến Microsoft, từ Sabre đến
 Symantec, hết công ty này đến công ty khác và đội ngũ này đến đội khác đã trải qua những khiếm khuyết
@@ -150,10 +141,8 @@ kiểm tra mô tả cách gọi mọi chức năng trong hệ thống theo mọi
 các hàm có thể được gọi một cách có ý nghĩa. Đối với bất cứ điều gì bạn cần biết cách
 làm, sẽ có một bài kiểm tra đơn vị mô tả nó chi tiết.
 Các bài kiểm tra đơn vị là tài liệu. Họ mô tả thiết kế cấp thấp nhất của
-hệ thống. Chúng rõ ràng, chính xác, được viết bằng ngôn ngữ
-khán giả hiểu và trang trọng đến mức họ thực thi. Họ la tuyệt nhât
-loại tài liệu cấp thấp có thể tồn tại. Những gì chuyên nghiệp sẽ không
-cung cấp tài liệu đó?
+hệ thống. Chúng rõ ràng, chính xác, được viết bằng ngôn ngữ khán giả hiểu và trang trọng đến mức họ thực thi. Họ la tuyệt nhât
+loại tài liệu cấp thấp có thể tồn tại. Những gì chuyên nghiệp sẽ không cung cấp tài liệu đó?
 
 #### Design
 Khi bạn tuân theo ba luật và viết các bài kiểm tra của mình trước, bạn phải đối mặt với
@@ -186,11 +175,7 @@ giúp tăng cường sự chắc chắn, can đảm, giảm thiểu sai sót, t�
 Với tất cả những gì đang xảy ra, việc không sử dụng nó có thể được coi là không chuyên nghiệp.
 
 ## W H AT TD D I S N O T
-Đối với tất cả những điểm tốt của nó, TDD không phải là một tôn giáo hay một công thức ma thuật. Theo dõi
-ba luật không đảm bảo bất kỳ lợi ích nào trong số này. Bạn vẫn có thể viết mã xấu
+Đối với tất cả những điểm tốt của nó, TDD không phải là một tôn giáo hay một công thức ma thuật. Theo dõi ba luật không đảm bảo bất kỳ lợi ích nào trong số này. Bạn vẫn có thể viết mã xấu
 ngay cả khi bạn viết bài kiểm tra của mình trước. Thật vậy, bạn có thể viết các bài kiểm tra tồi.
 
-Đồng thời, có những lúc việc tuân theo ba luật chỉ đơn giản là
-không thực tế hoặc không phù hợp. Những tình huống này rất hiếm, nhưng chúng tồn tại. Không
-nhà phát triển chuyên nghiệp nên tuân theo một kỷ luật khi kỷ luật đó
-nhiều nguy hại hơn là tốt.
+Đồng thời, có những lúc việc tuân theo ba luật chỉ đơn giản là không thực tế hoặc không phù hợp. Những tình huống này rất hiếm, nhưng chúng tồn tại. Không nhà phát triển chuyên nghiệp nên tuân theo một kỷ luật khi kỷ luật đó nhiều nguy hại hơn là tốt.
